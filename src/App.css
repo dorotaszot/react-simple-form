@@ -25,12 +25,13 @@ body {
   background-color: #fff;
   width: 300px;
   padding: 20px;
-  height: 300px;
+  height: 400px;
 }
 
 .form-input {
   box-sizing: border-box;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   /* background-color: #a8a7a7; */
   border: #a8a7a7 3px solid;
@@ -51,9 +52,20 @@ button {
   width: 100%;
   margin-top: 10px;
   cursor: pointer;
+  outline: none;
 }
 
 button:hover {
   background-color: #363636;
   border: 1px solid #363636;
+}
+
+span {
+  color: red;
+}
+
+.success-message {
+  background-color: #a8e6ce;
+  padding: 10px;
+  /* font-size: 14px; */
 }
