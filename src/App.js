@@ -24,8 +24,9 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
-    setValid(true);
+    
     if(values.firstName && values.lastName && values.email) {
+      setValid(true);
     } 
     
   }
